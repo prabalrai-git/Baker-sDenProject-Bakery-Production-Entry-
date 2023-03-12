@@ -89,7 +89,7 @@ const ClosingDateSpecific = ({ setCloseAllModal, closeAllModal }) => {
 
           <DatePicker
             // defaultValue={correctdate}
-            placeholder={`Please chooose ${correctdate} for yesterday's Closing`}
+            placeholder={`Please choose ${correctdate} for yesterday's Closing`}
             name="Date"
             className="my-date-picker"
             label="Date"
