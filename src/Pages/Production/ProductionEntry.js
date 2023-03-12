@@ -98,7 +98,6 @@ const ProductionEntry = () => {
   useEffect(() => {
     GetLastClosingDates((res) => {
       setResDate(res.GetLastClosingDate[0].OpeningDate);
-      console.log(res, "datafromservice");
     });
 
     if (currentDate != correct) {

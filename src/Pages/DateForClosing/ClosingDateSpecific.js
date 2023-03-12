@@ -48,7 +48,6 @@ const ClosingDateSpecific = ({ setCloseAllModal, closeAllModal }) => {
     }
     setVisible(true);
     setCorrectdate(currentDate);
-    console.log(correctdate, "hello hello");
   };
 
   const handleOk = () => {
